@@ -1,0 +1,67 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="nvidiaGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#76b900;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4a7c00;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="cardGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2a2a2a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1a1a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="fanGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#666;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#333;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Graphics Card PCB -->
+  <rect x="20" y="60" width="160" height="80" rx="4" fill="url(#cardGradient)" stroke="#333" stroke-width="2"/>
+  
+  <!-- GPU Cooler -->
+  <rect x="25" y="40" width="150" height="120" rx="8" fill="url(#nvidiaGradient)" stroke="#4a7c00" stroke-width="2"/>
+  
+  <!-- Fan 1 -->
+  <circle cx="60" cy="100" r="25" fill="url(#fanGradient)" stroke="#222" stroke-width="1"/>
+  <circle cx="60" cy="100" r="3" fill="#333"/>
+  <path d="M 60 75 Q 75 85 70 100 Q 75 115 60 125 Q 45 115 50 100 Q 45 85 60 75" fill="#555" opacity="0.7"/>
+  
+  <!-- Fan 2 -->
+  <circle cx="140" cy="100" r="25" fill="url(#fanGradient)" stroke="#222" stroke-width="1"/>
+  <circle cx="140" cy="100" r="3" fill="#333"/>
+  <path d="M 140 75 Q 155 85 150 100 Q 155 115 140 125 Q 125 115 130 100 Q 125 85 140 75" fill="#555" opacity="0.7"/>
+  
+  <!-- NVIDIA Logo -->
+  <rect x="85" y="85" width="30" height="12" rx="2" fill="#000"/>
+  <text x="100" y="94" text-anchor="middle" fill="#76b900" font-family="Arial, sans-serif" font-size="8" font-weight="bold">NVIDIA</text>
+  
+  <!-- RTX Label -->
+  <text x="100" y="110" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold">RTX 4090</text>
+  
+  <!-- PCI-E Connector -->
+  <rect x="15" y="75" width="8" height="50" rx="2" fill="#444" stroke="#666" stroke-width="1"/>
+  <rect x="16" y="80" width="6" height="5" fill="#666"/>
+  <rect x="16" y="90" width="6" height="5" fill="#666"/>
+  <rect x="16" y="100" width="6" height="5" fill="#666"/>
+  <rect x="16" y="110" width="6" height="5" fill="#666"/>
+  <rect x="16" y="120" width="6" height="5" fill="#666"/>
+  
+  <!-- Power Connectors -->
+  <rect x="160" y="45" width="15" height="8" rx="2" fill="#333" stroke="#555" stroke-width="1"/>
+  <rect x="160" y="57" width="15" height="8" rx="2" fill="#333" stroke="#555" stroke-width="1"/>
+  <rect x="160" y="69" width="15" height="8" rx="2" fill="#333" stroke="#555" stroke-width="1"/>
+  
+  <!-- Display Ports -->
+  <rect x="175" y="85" width="8" height="6" rx="1" fill="#222" stroke="#444" stroke-width="1"/>
+  <rect x="175" y="95" width="8" height="6" rx="1" fill="#222" stroke="#444" stroke-width="1"/>
+  <rect x="175" y="105" width="8" height="6" rx="1" fill="#222" stroke="#444" stroke-width="1"/>
+  <rect x="175" y="115" width="8" height="8" rx="1" fill="#222" stroke="#444" stroke-width="1"/>
+  
+  <!-- Heat Pipes -->
+  <rect x="30" y="35" width="4" height="30" rx="2" fill="#c0c0c0" opacity="0.8"/>
+  <rect x="40" y="35" width="4" height="30" rx="2" fill="#c0c0c0" opacity="0.8"/>
+  <rect x="156" y="35" width="4" height="30" rx="2" fill="#c0c0c0" opacity="0.8"/>
+  <rect x="166" y="35" width="4" height="30" rx="2" fill="#c0c0c0" opacity="0.8"/>
+  
+  <!-- Ada Lovelace indicator -->
+  <text x="100" y="180" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="8">Ada Lovelace</text>
+</svg>

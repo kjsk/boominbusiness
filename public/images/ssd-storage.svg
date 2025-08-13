@@ -1,0 +1,96 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ssdGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1565c0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d47a1;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="controllerGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#424242;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#212121;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="nandGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#37474f;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#263238;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- SSD PCB -->
+  <rect x="30" y="50" width="140" height="100" rx="4" fill="url(#ssdGradient)" stroke="#0d47a1" stroke-width="2"/>
+  
+  <!-- Brand Label -->
+  <rect x="40" y="60" width="60" height="15" rx="2" fill="#000"/>
+  <text x="70" y="71" text-anchor="middle" fill="#1565c0" font-family="Arial, sans-serif" font-size="10" font-weight="bold">Samsung</text>
+  
+  <!-- Model -->
+  <text x="70" y="88" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="9" font-weight="bold">980 PRO</text>
+  <text x="70" y="100" text-anchor="middle" fill="#ccc" font-family="Arial, sans-serif" font-size="8">1TB NVMe</text>
+  
+  <!-- Controller Chip -->
+  <rect x="110" y="65" width="25" height="25" rx="2" fill="url(#controllerGradient)" stroke="#333" stroke-width="1"/>
+  <text x="122.5" y="75" text-anchor="middle" fill="#ccc" font-family="Arial, sans-serif" font-size="6">CTRL</text>
+  <text x="122.5" y="83" text-anchor="middle" fill="#999" font-family="Arial, sans-serif" font-size="5">S4LR033</text>
+  
+  <!-- NAND Flash Chips -->
+  <rect x="40" y="110" width="20" height="15" rx="1" fill="url(#nandGradient)" stroke="#333" stroke-width="0.5"/>
+  <rect x="65" y="110" width="20" height="15" rx="1" fill="url(#nandGradient)" stroke="#333" stroke-width="0.5"/>
+  <rect x="90" y="110" width="20" height="15" rx="1" fill="url(#nandGradient)" stroke="#333" stroke-width="0.5"/>
+  <rect x="115" y="110" width="20" height="15" rx="1" fill="url(#nandGradient)" stroke="#333" stroke-width="0.5"/>
+  <rect x="140" y="110" width="20" height="15" rx="1" fill="url(#nandGradient)" stroke="#333" stroke-width="0.5"/>
+  
+  <!-- NAND Labels -->
+  <text x="50" y="120" text-anchor="middle" fill="#ccc" font-family="Arial, sans-serif" font-size="5">NAND</text>
+  <text x="75" y="120" text-anchor="middle" fill="#ccc" font-family="Arial, sans-serif" font-size="5">NAND</text>
+  <text x="100" y="120" text-anchor="middle" fill="#ccc" font-family="Arial, sans-serif" font-size="5">NAND</text>
+  <text x="125" y="120" text-anchor="middle" fill="#ccc" font-family="Arial, sans-serif" font-size="5">NAND</text>
+  <text x="150" y="120" text-anchor="middle" fill="#ccc" font-family="Arial, sans-serif" font-size="5">NAND</text>
+  
+  <!-- Cache Memory -->
+  <rect x="145" y="65" width="15" height="15" rx="1" fill="#666" stroke="#444" stroke-width="0.5"/>
+  <text x="152.5" y="74" text-anchor="middle" fill="#ccc" font-family="Arial, sans-serif" font-size="5">DRAM</text>
+  
+  <!-- M.2 Connector -->
+  <rect x="25" y="80" width="8" height="40" rx="2" fill="#444" stroke="#666" stroke-width="1"/>
+  
+  <!-- M.2 Connector Pins -->
+  <g fill="#ffd700" stroke="#e6c200" stroke-width="0.2">
+    <rect x="26" y="85" width="6" height="1"/>
+    <rect x="26" y="88" width="6" height="1"/>
+    <rect x="26" y="91" width="6" height="1"/>
+    <rect x="26" y="94" width="6" height="1"/>
+    <rect x="26" y="97" width="6" height="1"/>
+    <rect x="26" y="100" width="6" height="1"/>
+    <rect x="26" y="103" width="6" height="1"/>
+    <rect x="26" y="106" width="6" height="1"/>
+    <rect x="26" y="109" width="6" height="1"/>
+    <rect x="26" y="112" width="6" height="1"/>
+    <rect x="26" y="115" width="6" height="1"/>
+  </g>
+  
+  <!-- Mounting Screw Hole -->
+  <circle cx="160" cy="140" r="3" fill="none" stroke="#333" stroke-width="1"/>
+  <circle cx="160" cy="140" r="1.5" fill="#666"/>
+  
+  <!-- PCIe Traces -->
+  <rect x="35" y="130" width="120" height="1" fill="#4fc3f7" opacity="0.7"/>
+  <rect x="35" y="133" width="120" height="1" fill="#4fc3f7" opacity="0.7"/>
+  <rect x="35" y="136" width="120" height="1" fill="#4fc3f7" opacity="0.7"/>
+  
+  <!-- Heat Label -->
+  <rect x="110" y="95" width="40" height="8" rx="1" fill="#ff5722" opacity="0.8"/>
+  <text x="130" y="101" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="6">CAUTION HOT</text>
+  
+  <!-- Performance Specs -->
+  <text x="100" y="170" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="8">PCIe 4.0 x4</text>
+  <text x="100" y="182" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="7">7000 MB/s Read</text>
+  
+  <!-- QR Code placeholder -->
+  <rect x="145" y="75" width="12" height="12" rx="1" fill="#000"/>
+  <rect x="147" y="77" width="2" height="2" fill="#fff"/>
+  <rect x="151" y="77" width="2" height="2" fill="#fff"/>
+  <rect x="155" y="77" width="2" height="2" fill="#fff"/>
+  <rect x="147" y="81" width="2" height="2" fill="#fff"/>
+  <rect x="155" y="81" width="2" height="2" fill="#fff"/>
+  <rect x="147" y="85" width="2" height="2" fill="#fff"/>
+  <rect x="151" y="85" width="2" height="2" fill="#fff"/>
+  <rect x="155" y="85" width="2" height="2" fill="#fff"/>
+</svg>

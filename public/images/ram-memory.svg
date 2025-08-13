@@ -1,0 +1,90 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ramGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2e7d32;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1b5e20;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="chipGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#424242;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#212121;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="heatspreaderGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e0e0e0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#bdbdbd;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- RAM PCB -->
+  <rect x="40" y="30" width="120" height="140" rx="4" fill="url(#ramGradient)" stroke="#1b5e20" stroke-width="2"/>
+  
+  <!-- Heat Spreader -->
+  <rect x="45" y="35" width="110" height="60" rx="3" fill="url(#heatspreaderGradient)" stroke="#999" stroke-width="1"/>
+  
+  <!-- Brand Label -->
+  <rect x="55" y="45" width="90" height="15" rx="2" fill="#000"/>
+  <text x="100" y="55" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="10" font-weight="bold">CORSAIR</text>
+  
+  <!-- Model -->
+  <text x="100" y="75" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="9" font-weight="bold">DDR5-5600</text>
+  <text x="100" y="87" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="8">32GB</text>
+  
+  <!-- Memory Chips -->
+  <rect x="50" y="105" width="20" height="12" rx="1" fill="url(#chipGradient)" stroke="#333" stroke-width="0.5"/>
+  <rect x="75" y="105" width="20" height="12" rx="1" fill="url(#chipGradient)" stroke="#333" stroke-width="0.5"/>
+  <rect x="105" y="105" width="20" height="12" rx="1" fill="url(#chipGradient)" stroke="#333" stroke-width="0.5"/>
+  <rect x="130" y="105" width="20" height="12" rx="1" fill="url(#chipGradient)" stroke="#333" stroke-width="0.5"/>
+  
+  <rect x="50" y="125" width="20" height="12" rx="1" fill="url(#chipGradient)" stroke="#333" stroke-width="0.5"/>
+  <rect x="75" y="125" width="20" height="12" rx="1" fill="url(#chipGradient)" stroke="#333" stroke-width="0.5"/>
+  <rect x="105" y="125" width="20" height="12" rx="1" fill="url(#chipGradient)" stroke="#333" stroke-width="0.5"/>
+  <rect x="130" y="125" width="20" height="12" rx="1" fill="url(#chipGradient)" stroke="#333" stroke-width="0.5"/>
+  
+  <!-- Memory Chip Labels -->
+  <text x="60" y="113" text-anchor="middle" fill="#ccc" font-family="Arial, sans-serif" font-size="6">SK</text>
+  <text x="85" y="113" text-anchor="middle" fill="#ccc" font-family="Arial, sans-serif" font-size="6">SK</text>
+  <text x="115" y="113" text-anchor="middle" fill="#ccc" font-family="Arial, sans-serif" font-size="6">SK</text>
+  <text x="140" y="113" text-anchor="middle" fill="#ccc" font-family="Arial, sans-serif" font-size="6">SK</text>
+  
+  <text x="60" y="133" text-anchor="middle" fill="#ccc" font-family="Arial, sans-serif" font-size="6">SK</text>
+  <text x="85" y="133" text-anchor="middle" fill="#ccc" font-family="Arial, sans-serif" font-size="6">SK</text>
+  <text x="115" y="133" text-anchor="middle" fill="#ccc" font-family="Arial, sans-serif" font-size="6">SK</text>
+  <text x="140" y="133" text-anchor="middle" fill="#ccc" font-family="Arial, sans-serif" font-size="6">SK</text>
+  
+  <!-- DIMM Notch -->
+  <rect x="95" y="170" width="10" height="8" fill="#1b5e20"/>
+  
+  <!-- Gold Contacts -->
+  <g fill="#ffd700" stroke="#e6c200" stroke-width="0.3">
+    <rect x="42" y="172" width="3" height="6"/>
+    <rect x="47" y="172" width="3" height="6"/>
+    <rect x="52" y="172" width="3" height="6"/>
+    <rect x="57" y="172" width="3" height="6"/>
+    <rect x="62" y="172" width="3" height="6"/>
+    <rect x="67" y="172" width="3" height="6"/>
+    <rect x="72" y="172" width="3" height="6"/>
+    <rect x="77" y="172" width="3" height="6"/>
+    <rect x="82" y="172" width="3" height="6"/>
+    <rect x="87" y="172" width="3" height="6"/>
+    <rect x="92" y="172" width="3" height="6"/>
+    
+    <rect x="107" y="172" width="3" height="6"/>
+    <rect x="112" y="172" width="3" height="6"/>
+    <rect x="117" y="172" width="3" height="6"/>
+    <rect x="122" y="172" width="3" height="6"/>
+    <rect x="127" y="172" width="3" height="6"/>
+    <rect x="132" y="172" width="3" height="6"/>
+    <rect x="137" y="172" width="3" height="6"/>
+    <rect x="142" y="172" width="3" height="6"/>
+    <rect x="147" y="172" width="3" height="6"/>
+    <rect x="152" y="172" width="3" height="6"/>
+    <rect x="157" y="172" width="3" height="6"/>
+  </g>
+  
+  <!-- Heat Spreader Details -->
+  <rect x="50" y="40" width="100" height="2" fill="#999" opacity="0.5"/>
+  <rect x="50" y="45" width="100" height="1" fill="#999" opacity="0.3"/>
+  <rect x="50" y="90" width="100" height="2" fill="#999" opacity="0.5"/>
+  
+  <!-- Specification Label -->
+  <text x="100" y="190" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="8">DDR5 DIMM</text>
+</svg>

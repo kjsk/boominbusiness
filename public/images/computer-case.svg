@@ -1,0 +1,111 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="caseGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#37474f;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#263238;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="glassGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e3f2fd;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#bbdefb;stop-opacity:0.1" />
+    </linearGradient>
+    <linearGradient id="ledGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00e676;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00c853;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Case Body -->
+  <rect x="40" y="20" width="120" height="160" rx="8" fill="url(#caseGradient)" stroke="#1c313a" stroke-width="2"/>
+  
+  <!-- Tempered Glass Side Panel -->
+  <rect x="45" y="25" width="110" height="150" rx="6" fill="url(#glassGradient)" stroke="#90caf9" stroke-width="1" opacity="0.7"/>
+  
+  <!-- Front Panel -->
+  <rect x="35" y="25" width="12" height="150" rx="4" fill="#455a64" stroke="#37474f" stroke-width="1"/>
+  
+  <!-- Power Button -->
+  <circle cx="41" cy="40" r="4" fill="#333" stroke="#555" stroke-width="1"/>
+  <circle cx="41" cy="40" r="2" fill="url(#ledGradient)"/>
+  
+  <!-- Reset Button -->
+  <circle cx="41" cy="55" r="2" fill="#333" stroke="#555" stroke-width="0.5"/>
+  
+  <!-- Front I/O -->
+  <rect x="38" y="70" width="6" height="4" rx="1" fill="#333"/>
+  <rect x="38" y="78" width="6" height="4" rx="1" fill="#333"/>
+  <rect x="38" y="86" width="6" height="4" rx="1" fill="#1565c0"/>
+  <rect x="38" y="94" width="6" height="4" rx="1" fill="#1565c0"/>
+  
+  <!-- Audio Jacks -->
+  <circle cx="41" cy="110" r="2" fill="#4caf50"/>
+  <circle cx="41" cy="120" r="2" fill="#f44336"/>
+  
+  <!-- Front Fans -->
+  <circle cx="41" cy="140" r="8" fill="#333" stroke="#555" stroke-width="1"/>
+  <circle cx="41" cy="160" r="8" fill="#333" stroke="#555" stroke-width="1"/>
+  
+  <!-- Fan Blades -->
+  <path d="M 41 132 Q 46 136 45 140 Q 46 144 41 148 Q 36 144 37 140 Q 36 136 41 132" fill="#555" opacity="0.7"/>
+  <path d="M 41 152 Q 46 156 45 160 Q 46 164 41 168 Q 36 164 37 160 Q 36 156 41 152" fill="#555" opacity="0.7"/>
+  
+  <!-- Top Panel -->
+  <rect x="45" y="15" width="110" height="12" rx="4" fill="#455a64" stroke="#37474f" stroke-width="1"/>
+  
+  <!-- Top Fans/Radiator -->
+  <circle cx="70" cy="21" r="4" fill="#333" stroke="#555" stroke-width="0.5"/>
+  <circle cx="85" cy="21" r="4" fill="#333" stroke="#555" stroke-width="0.5"/>
+  <circle cx="100" cy="21" r="4" fill="#333" stroke="#555" stroke-width="0.5"/>
+  <circle cx="115" cy="21" r="4" fill="#333" stroke="#555" stroke-width="0.5"/>
+  <circle cx="130" cy="21" r="4" fill="#333" stroke="#555" stroke-width="0.5"/>
+  
+  <!-- Rear Panel -->
+  <rect x="155" y="25" width="12" height="150" rx="4" fill="#455a64" stroke="#37474f" stroke-width="1"/>
+  
+  <!-- Rear Fan -->
+  <circle cx="161" cy="50" r="10" fill="#333" stroke="#555" stroke-width="1"/>
+  <path d="M 161 40 Q 168 44 166 50 Q 168 56 161 60 Q 154 56 156 50 Q 154 44 161 40" fill="#555" opacity="0.7"/>
+  
+  <!-- I/O Shield -->
+  <rect x="158" y="70" width="6" height="30" rx="1" fill="#666" stroke="#444" stroke-width="0.5"/>
+  
+  <!-- PSU Area -->
+  <rect x="158" y="130" width="6" height="40" rx="1" fill="#1a1a1a" stroke="#333" stroke-width="0.5"/>
+  
+  <!-- Internal Components (visible through glass) -->
+  <!-- Motherboard -->
+  <rect x="55" y="40" width="80" height="60" rx="2" fill="#2e7d32" opacity="0.6"/>
+  
+  <!-- CPU Cooler -->
+  <rect x="65" y="45" width="25" height="25" rx="2" fill="#666" opacity="0.7"/>
+  <circle cx="77.5" cy="57.5" r="8" fill="#333" opacity="0.8"/>
+  
+  <!-- RAM -->
+  <rect x="100" y="42" width="4" height="20" rx="1" fill="#1565c0" opacity="0.8"/>
+  <rect x="107" y="42" width="4" height="20" rx="1" fill="#1565c0" opacity="0.8"/>
+  <rect x="114" y="42" width="4" height="20" rx="1" fill="#1565c0" opacity="0.8"/>
+  <rect x="121" y="42" width="4" height="20" rx="1" fill="#1565c0" opacity="0.8"/>
+  
+  <!-- Graphics Card -->
+  <rect x="60" y="110" width="60" height="15" rx="2" fill="#76b900" opacity="0.7"/>
+  
+  <!-- PSU -->
+  <rect x="55" y="140" width="40" height="25" rx="2" fill="#424242" opacity="0.6"/>
+  
+  <!-- Storage -->
+  <rect x="110" y="145" width="20" height="8" rx="1" fill="#1565c0" opacity="0.6"/>
+  <rect x="110" y="157" width="20" height="8" rx="1" fill="#1565c0" opacity="0.6"/>
+  
+  <!-- RGB Lighting Strip -->
+  <rect x="50" y="170" width="100" height="3" rx="1" fill="url(#ledGradient)" opacity="0.8"/>
+  
+  <!-- Cable Management -->
+  <path d="M 95 100 Q 110 105 120 110" stroke="#333" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M 77 70 Q 85 80 90 90" stroke="#333" stroke-width="1.5" fill="none" opacity="0.5"/>
+  
+  <!-- Feet -->
+  <rect x="45" y="175" width="8" height="4" rx="2" fill="#333"/>
+  <rect x="147" y="175" width="8" height="4" rx="2" fill="#333"/>
+  
+  <!-- Brand Label -->
+  <text x="100" y="195" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="8">Mid-Tower ATX Case</text>
+</svg>
