@@ -87,9 +87,9 @@ const Home = () => {
         <div className="container">
           <div className="about-content">
             <div className={`about-text slide-in-left ${visibleElements.has('about-text') ? 'visible' : ''}`} id="about-text">
-              <h2>About TechParts Global</h2>
+              <h2>About BoominBusiness</h2>
               <p>
-                With years of experience in the technology industry, TechParts Global has established itself as a trusted partner for computer hardware import and export services. We specialize in connecting businesses worldwide with high-quality technology products.
+                With years of experience in the technology industry, BoominBusiness has established itself as a trusted partner for computer hardware import and export services. We specialize in connecting businesses worldwide with high-quality technology products.
               </p>
               <p>
                 Our commitment to excellence, competitive pricing, and reliable service has made us a preferred choice for businesses looking to expand their technology offerings globally.

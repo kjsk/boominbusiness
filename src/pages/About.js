@@ -109,7 +109,7 @@ const About = () => {
       {/* Team Section */}
       <section className="about">
         <div className="container">
-          <h2 className="section-title">Why Choose TechParts Global?</h2>
+          <h2 className="section-title">Why Choose BoominBusiness?</h2>
           <div className="about-content">
             <div className="about-text">
               <div className="feature-list">

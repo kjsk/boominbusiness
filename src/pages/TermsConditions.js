@@ -132,12 +132,12 @@ const TermsConditions = () => {
               
               <h2>8. Limitation of Liability</h2>
               <p>
-                In no event shall TechParts Global or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use the materials on our website, even if we or our authorized representative has been notified orally or in writing of the possibility of such damage.
+                In no event shall BoominBusiness or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use the materials on our website, even if we or our authorized representative has been notified orally or in writing of the possibility of such damage.
               </p>
               
               <h2>9. Indemnification</h2>
               <p>
-                You agree to indemnify and hold harmless TechParts Global, its officers, directors, employees, and agents from any claims, damages, losses, or expenses arising from:
+                You agree to indemnify and hold harmless BoominBusiness, its officers, directors, employees, and agents from any claims, damages, losses, or expenses arising from:
               </p>
               <ul>
                 <li>Your use of our services</li>
@@ -159,7 +159,7 @@ const TermsConditions = () => {
               
               <h2>11. Intellectual Property</h2>
               <p>
-                All content on this website, including but not limited to text, graphics, logos, images, and software, is the property of TechParts Global or its content suppliers and is protected by copyright and other intellectual property laws.
+                All content on this website, including but not limited to text, graphics, logos, images, and software, is the property of BoominBusiness or its content suppliers and is protected by copyright and other intellectual property laws.
               </p>
               
               <h2>12. Privacy</h2>
@@ -196,7 +196,7 @@ const TermsConditions = () => {
               <p>For questions about these Terms & Conditions, please contact us:</p>
               
               <div className="contact-info">
-                <p><strong>TechParts Global</strong></p>
+                <p><strong>BoominBusiness</strong></p>
                 <p>Email: kjcsaravanak@gmail.com</p>
                 <p>Phone: +91 8885351814</p>
                 <p>Address: No. 02, Ammavaripeta, Venkatagiri Town, Venkatagiri, Sri Potti Sriramulu Nellore, Andhra Pradesh, 524132</p>

@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - BoominBusiness</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">
+                    <img src="logo.svg" alt="B&B - Boomin Business" class="logo">
+                </a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="products.html" class="nav-link active">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Our Products</h1>
+            <p>Comprehensive range of computer parts for all your technology needs</p>
+        </div>
+    </section>
+
+    <!-- Product Categories -->
+    <section class="product-categories">
+        <div class="container">
+            <h2>Product Categories</h2>
+            <div class="category-grid">
+                <div class="category-card">
+                    <div class="category-icon">🖥️</div>
+                    <h3>Processors (CPUs)</h3>
+                    <p>High-performance processors from Intel and AMD for desktop and server applications.</p>
+                    <ul class="category-features">
+                        <li>Intel Core i3, i5, i7, i9 series</li>
+                        <li>AMD Ryzen 3, 5, 7, 9 series</li>
+                        <li>Server-grade Xeon processors</li>
+                        <li>Mobile and embedded processors</li>
+                    </ul>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">🎮</div>
+                    <h3>Graphics Cards (GPUs)</h3>
+                    <p>Professional and gaming graphics cards for demanding visual applications.</p>
+                    <ul class="category-features">
+                        <li>NVIDIA GeForce RTX series</li>
+                        <li>AMD Radeon RX series</li>
+                        <li>Professional Quadro cards</li>
+                        <li>Mining and AI accelerators</li>
+                    </ul>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">🔧</div>
+                    <h3>Motherboards</h3>
+                    <p>Reliable motherboards supporting the latest CPU sockets and technologies.</p>
+                    <ul class="category-features">
+                        <li>ATX, Micro-ATX, Mini-ITX forms</li>
+                        <li>Intel LGA and AMD AM4/AM5 sockets</li>
+                        <li>Gaming and workstation boards</li>
+                        <li>Server and enterprise solutions</li>
+                    </ul>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">💾</div>
+                    <h3>Memory (RAM)</h3>
+                    <p>High-speed memory modules for optimal system performance.</p>
+                    <ul class="category-features">
+                        <li>DDR4 and DDR5 modules</li>
+                        <li>Gaming and overclocking RAM</li>
+                        <li>ECC server memory</li>
+                        <li>Laptop SO-DIMM modules</li>
+                    </ul>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">💿</div>
+                    <h3>Storage Devices</h3>
+                    <p>Fast and reliable storage solutions for all computing needs.</p>
+                    <ul class="category-features">
+                        <li>NVMe M.2 SSDs</li>
+                        <li>SATA SSDs and HDDs</li>
+                        <li>Enterprise storage drives</li>
+                        <li>External storage solutions</li>
+                    </ul>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">⚡</div>
+                    <h3>Power Supplies</h3>
+                    <p>Efficient and reliable power supplies for stable system operation.</p>
+                    <ul class="category-features">
+                        <li>80+ certified PSUs</li>
+                        <li>Modular and non-modular designs</li>
+                        <li>Gaming and workstation PSUs</li>
+                        <li>Server power solutions</li>
+                    </ul>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">🌡️</div>
+                    <h3>Cooling Solutions</h3>
+                    <p>Advanced cooling systems to keep your components running optimally.</p>
+                    <ul class="category-features">
+                        <li>CPU air and liquid coolers</li>
+                        <li>Case fans and ventilation</li>
+                        <li>Thermal paste and pads</li>
+                        <li>Custom cooling solutions</li>
+                    </ul>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">📦</div>
+                    <h3>Cases & Accessories</h3>
+                    <p>Quality computer cases and essential accessories for system building.</p>
+                    <ul class="category-features">
+                        <li>ATX, Micro-ATX, Mini-ITX cases</li>
+                        <li>Gaming and professional cases</li>
+                        <li>Cables and connectors</li>
+                        <li>Tools and mounting hardware</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="featured-products">
+        <div class="container">
+            <h2>Featured Products</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-image"><img src="https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=300&h=200&fit=crop&auto=format" alt="Intel Core i7-13700K Processor" /></div>
+                    <div class="product-info">
+                        <h3>Intel Core i7-13700K</h3>
+                        <p class="product-category">Processors</p>
+                        <p>High-performance 13th generation processor with 16 cores and 24 threads, perfect for gaming and content creation.</p>
+                        <div class="product-specs">
+                            <span>Base Clock: 3.4 GHz</span>
+                            <span>Max Boost: 5.4 GHz</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image"><img src="https://images.unsplash.com/photo-1587202372634-32705e3bf49c?w=300&h=200&fit=crop&auto=format" alt="NVIDIA RTX 4080 Graphics Card" /></div>
+                    <div class="product-info">
+                        <h3>NVIDIA RTX 4080</h3>
+                        <p class="product-category">Graphics Cards</p>
+                        <p>Cutting-edge graphics card with ray tracing and DLSS 3 technology for ultimate gaming performance.</p>
+                        <div class="product-specs">
+                            <span>Memory: 16GB GDDR6X</span>
+                            <span>CUDA Cores: 9728</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image"><img src="https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=300&h=200&fit=crop&auto=format" alt="Samsung 980 PRO NVMe SSD" /></div>
+                    <div class="product-info">
+                        <h3>Samsung 980 PRO 2TB</h3>
+                        <p class="product-category">Storage</p>
+                        <p>Ultra-fast NVMe M.2 SSD with exceptional read/write speeds for demanding applications.</p>
+                        <div class="product-specs">
+                            <span>Read: 7,000 MB/s</span>
+                            <span>Write: 5,100 MB/s</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image"><img src="https://images.unsplash.com/photo-1555617981-dac3880eac6e?w=300&h=200&fit=crop&auto=format" alt="ASUS ROG Strix Z790-E Motherboard" /></div>
+                    <div class="product-info">
+                        <h3>ASUS ROG Strix Z790-E</h3>
+                        <p class="product-category">Motherboards</p>
+                        <p>Premium gaming motherboard with advanced features and robust power delivery for high-end builds.</p>
+                        <div class="product-specs">
+                            <span>Socket: LGA 1700</span>
+                            <span>Form Factor: ATX</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image"><img src="https://images.unsplash.com/photo-1562976540-1502c2145186?w=300&h=200&fit=crop&auto=format" alt="Corsair Vengeance DDR5 Memory" /></div>
+                    <div class="product-info">
+                        <h3>Corsair Vengeance 32GB</h3>
+                        <p class="product-category">Memory</p>
+                        <p>High-performance DDR5 memory kit optimized for gaming and professional workloads.</p>
+                        <div class="product-specs">
+                            <span>Speed: DDR5-5600</span>
+                            <span>Capacity: 32GB (2x16GB)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image"><img src="https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?w=300&h=200&fit=crop&auto=format" alt="Seasonic Focus GX-850 Power Supply" /></div>
+                    <div class="product-info">
+                        <h3>Seasonic Focus GX-850</h3>
+                        <p class="product-category">Power Supplies</p>
+                        <p>80+ Gold certified modular power supply with excellent efficiency and reliability.</p>
+                        <div class="product-specs">
+                            <span>Wattage: 850W</span>
+                            <span>Efficiency: 80+ Gold</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="product-services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-item">
+                    <div class="service-icon">🌍</div>
+                    <h3>Global Sourcing</h3>
+                    <p>We source products from trusted manufacturers worldwide to ensure competitive pricing and authentic components.</p>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon">✅</div>
+                    <h3>Quality Assurance</h3>
+                    <p>Every product undergoes rigorous testing and quality control to guarantee performance and reliability.</p>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon">🚚</div>
+                    <h3>Fast Shipping</h3>
+                    <p>Efficient logistics and shipping solutions to get your products delivered quickly and safely.</p>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon">🛡️</div>
+                    <h3>Warranty Support</h3>
+                    <p>Comprehensive warranty coverage and technical support for all our products.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Need a Custom Quote?</h2>
+                <p>Contact us for bulk orders, custom configurations, or specific product requirements.</p>
+                <div class="cta-buttons">
+                    <a href="contact.html" class="btn btn-primary">Get Quote</a>
+                    <a href="about.html" class="btn btn-secondary">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>BoominBusiness</h3>
+                    <p>Your trusted partner for computer parts import and export solutions worldwide.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="terms-conditions.html">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p>📧 kjcsaravanak@gmail.com</p>
+                    <p>📞 +91 8885351814</p>
+                    <p>📍 No. 02, Ammavaripeta<br>Venkatagiri Town, Venkatagiri<br>Sri Potti Sriramulu Nellore<br>Andhra Pradesh, 524132</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 BoominBusiness. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+    <style>
+        /* Additional styles for Products page */
+        .page-header {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 120px 0 80px;
+            text-align: center;
+            margin-top: 70px;
+        }
+
+        .page-header h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+
+        .page-header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        .product-categories {
+            padding: 80px 0;
+            background: white;
+        }
+
+        .product-categories h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            color: #1e3c72;
+            margin-bottom: 3rem;
+        }
+
+        .category-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+        }
+
+        .category-card {
+            background: #f8f9fa;
+            padding: 2rem;
+            border-radius: 15px;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+        }
+
+        .category-card:hover {
+            background: white;
+            border-color: #1e3c72;
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+        }
+
+        .category-icon {
+            font-size: 3.5rem;
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+
+        .category-card h3 {
+            color: #1e3c72;
+            margin-bottom: 1rem;
+            font-size: 1.4rem;
+            text-align: center;
+        }
+
+        .category-card p {
+            color: #666;
+            margin-bottom: 1.5rem;
+            line-height: 1.6;
+            text-align: center;
+        }
+
+        .category-features {
+            list-style: none;
+            padding: 0;
+        }
+
+        .category-features li {
+            color: #555;
+            margin-bottom: 0.5rem;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+
+        .category-features li:before {
+            content: '✓';
+            color: #ff6b35;
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+
+        .featured-products {
+            padding: 80px 0;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+        }
+
+        .featured-products h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            color: #1e3c72;
+            margin-bottom: 3rem;
+        }
+
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .product-card {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+        }
+
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+        }
+
+        .product-image {
+            height: 200px;
+            background: linear-gradient(45deg, #f8f9fa, #e9ecef);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 4rem;
+            color: #666;
+            overflow: hidden;
+        }
+
+        .product-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .product-info {
+            padding: 1.5rem;
+        }
+
+        .product-info h3 {
+            color: #1e3c72;
+            margin-bottom: 0.5rem;
+            font-size: 1.2rem;
+        }
+
+        .product-category {
+            color: #ff6b35;
+            font-weight: 600;
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+        }
+
+        .product-info p {
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 1rem;
+        }
+
+        .product-specs {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .product-specs span {
+            background: #f8f9fa;
+            color: #555;
+            padding: 0.3rem 0.8rem;
+            border-radius: 15px;
+            font-size: 0.8rem;
+            font-weight: 500;
+        }
+
+        .product-services {
+            padding: 80px 0;
+            background: white;
+        }
+
+        .product-services h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            color: #1e3c72;
+            margin-bottom: 3rem;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+
+        .service-item {
+            text-align: center;
+            padding: 2rem;
+            background: #f8f9fa;
+            border-radius: 10px;
+            transition: all 0.3s ease;
+        }
+
+        .service-item:hover {
+            background: white;
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+
+        .service-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .service-item h3 {
+            color: #1e3c72;
+            margin-bottom: 1rem;
+            font-size: 1.2rem;
+        }
+
+        .service-item p {
+            color: #666;
+            line-height: 1.6;
+        }
+
+        .cta-section {
+            padding: 80px 0;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            text-align: center;
+        }
+
+        .cta-content h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .cta-content p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .page-header h1 {
+                font-size: 2.5rem;
+            }
+
+            .category-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .category-card {
+                padding: 1.5rem;
+            }
+
+            .product-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .cta-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .category-card {
+                padding: 1rem;
+            }
+
+            .product-info {
+                padding: 1rem;
+            }
+
+            .service-item {
+                padding: 1.5rem;
+            }
+        }
+    </style>
+</body>
+</html>
